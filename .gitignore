@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific
+backend/cases.db
+backend/cases.db-journal
+frontend/.next/
+frontend/node_modules/
+.windsurf/
+.windsurfrules
+mic_diagnostic.html

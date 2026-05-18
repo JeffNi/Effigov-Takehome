@@ -1,0 +1,15 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.136.1",
+    "httpx>=0.28.1",
+    "livekit-agents[anthropic,cartesia,deepgram,silero]>=1.0",
+    "livekit-api>=1.1.0",
+    "python-dotenv>=1.2.2",
+    "sqlmodel>=0.0.38",
+    "uvicorn>=0.47.0",
+]
